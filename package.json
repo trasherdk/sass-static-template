@@ -16,7 +16,7 @@
     "build": "npm-run-all copy:html build:*",
     "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map"
   },
-  "devdependencies": {
+  "devDependencies": {
     "autoprefixer": "^10.3.4",
     "browser-sync": "^2.27.5",
     "copyfiles": "^2.4.1",
